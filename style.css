@@ -385,3 +385,10 @@ button {
         margin: 5rem auto;
     }
   }
+  @media screen and (max-width: 468px) {
+  
+    h2 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
