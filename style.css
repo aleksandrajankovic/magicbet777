@@ -128,7 +128,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
 }
 .privacy-wrapper a {
     text-decoration: none;
