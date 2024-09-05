@@ -407,7 +407,9 @@ button {
 }
   }
   @media screen and (max-width: 468px) {
-  
+    main {
+      height: 80vh;
+    }
     h2 {
       font-size: 40px;
       line-height: 45px;
