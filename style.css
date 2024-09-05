@@ -415,8 +415,8 @@ button {
     gap: 2rem;
 }
 button {
-  padding: 15px 50px;
-  
+  padding: 15px 40px;
+  font-size: 14px;
   
 }
   }
