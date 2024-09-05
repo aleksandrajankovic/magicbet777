@@ -50,7 +50,7 @@ html, body {
     
 }
 main {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@ header {
     background: linear-gradient(90deg, #A6080E 0%, #D11101 100%);
 }
 button {
-  padding: 15px 120px;
+  padding: 15px 100px;
     border: none;
     cursor: pointer;
     background: #facc00;
@@ -78,7 +78,7 @@ button {
     color: #284755;
     border-radius: 6px;
     opacity: .9;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     font-family: Inter, sans-serif;
     box-shadow: 0 0 50px #fbde5e;
@@ -151,7 +151,7 @@ button {
     width: 95%;
     height: auto;
     padding-bottom: 0px;
-    margin: 5rem auto;
+    margin: 0rem auto;
     border-top: var(--border);
   }
   #footer-wrapper > div:nth-child(2n) {
@@ -174,7 +174,7 @@ button {
   #footer-payments img,
   #footer-payments a img {
     height: 20px;
-    
+    opacity: 0.5;
   }
   #footer-payments a {
     height: 25px;
@@ -397,7 +397,7 @@ button {
     }
     #footer-wrapper {
   
-        margin: 5rem auto;
+        margin: 0rem auto;
     }
     .privacy-wrapper img {
       height: 6rem;
