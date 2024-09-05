@@ -46,12 +46,18 @@ html, body {
     line-height: 2;
     font-size: 62.5%;
     background-color: var(--dark);
+    
+    
 }
 main {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-size: cover;
+  background-image: url(img/bgr.png);
+  background-position: center top;
 }
 
 header {
