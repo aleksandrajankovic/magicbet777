@@ -32,7 +32,6 @@ h2, h3, h4, h5 {
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-    margin: 4rem 0;
 }
 p, ul, ol {
     color: var(--lightgray);
@@ -77,6 +76,7 @@ button {
     font-weight: 600;
     font-family: Inter, sans-serif;
     box-shadow: 0 0 50px #fbde5e;
+    margin-top: 2rem;
 }
 .logo img{
   height: 20px;
@@ -119,6 +119,11 @@ button {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
 }
 .privacy-wrapper a {
     text-decoration: none;
@@ -127,6 +132,9 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+.privacy-wrapper img {
+  height: 8rem;
 }
 #footer {
     height: auto;
@@ -385,6 +393,13 @@ button {
   
         margin: 5rem auto;
     }
+    .privacy-wrapper img {
+      height: 6rem;
+  }
+  .privacy-wrapper {
+
+    gap: 5rem;
+}
   }
   @media screen and (max-width: 468px) {
   
@@ -392,4 +407,16 @@ button {
       font-size: 40px;
       line-height: 45px;
     }
+    .privacy-wrapper img {
+      height: 4rem;
+  }
+  .privacy-wrapper {
+
+    gap: 2rem;
+}
+button {
+  padding: 15px 50px;
+  
+  
+}
   }
