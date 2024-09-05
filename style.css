@@ -91,7 +91,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 .btn-app a {
     font-family: 'Roboto', sans-serif;
